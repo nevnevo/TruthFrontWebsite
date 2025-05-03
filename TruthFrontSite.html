@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Truth Front AI</title>
+  <style>
+    body {
+      background: url('TruthFront_1.jpg') no-repeat center center;
+      background-size: cover;
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .brackets {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 120px;
+      height: 120px;
+      background: url('images/brackets.png') no-repeat center center;
+      background-size: contain;
+    }
+
+    .content {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 40px;
+      border-radius: 20px;
+      max-width: 700px;
+      text-align: center;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+      animation: fadeIn 1.5s ease;
+    }
+
+    h1 {
+      margin-top: 50px; /* Moves the title higher */
+      margin-bottom: 30px;
+      font-size: 3em; /* Increases the font size */
+      font-weight: bold; /* Makes the title bold */
+      color: #1a1a1a;
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    .download-btn {
+      margin-top: 30px;
+      padding: 15px 35px;
+      font-size: 1.1em;
+      background-color: #0056b3;
+      color: white;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s ease;
+    }
+
+    .download-btn:hover {
+      background-color: #004085;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .download-btn:active {
+      transform: translateY(1px);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: scale(0.95); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+
+<div class="brackets"></div>
+
+<div class="content">
+  <h1>Truth Front AI</h1>
+  <p>
+    TruthFront AI is designed to give the user two primary tools.<br><br>
+    The first tool is a debate-helper, which users can utilize when engaging in online debates. It provides active Hasbara users with an effective way to handle anti-Israeli claims, respond properly, and defend Israel confidently. It also serves as a helping hand when feeling stuck during an argument.<br><br>
+    The second tool offers an educational experience: giving anti-Israelis a chance to test and rethink their claims. Through this process, they can learn more about our beloved nation and hopefully change their approach and thinking.<br><br>
+    TruthFront continues to grow in the Hasbara realm, and we are committed to building the best tools possible and upgrading them continuously!
+  </p>
+
+  <!-- Updated Download Button -->
+  <button class="download-btn" onclick="window.location.href='YOUR_DOWNLOAD_LINK_HERE'">Download Here</button>
+</div>
+
+</body>
+</html>
